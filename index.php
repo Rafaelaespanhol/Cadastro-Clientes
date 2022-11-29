@@ -38,7 +38,7 @@
         echo"<p>Sua idade é $idade</p>";
         echo "<p> Pode entrar na festa</p>";
      }else if($idade >= 10){
-        echo "<p>Pessoas acima de 70 anos não podem entrar na festa</p>";
+        echo"<p>Pessoas acima de 70 anos não podem entrar na festa</p>";
      }else{
 echo "Você não pode entrar";
 
@@ -52,6 +52,58 @@ echo "Você não pode entrar";
      }else{
         echo "<p>Reprovado</p>";
      }
+
+     $idade = 15;
+     echo  ($idade>=18)? "pode entrar": "rejeitado";
+     
+
+     $COR = "Vermelho";
+     switch ($cor){
+        case 'azul':
+            echo "<p>Sua cor favorita é <b>AZUL</b></p>";
+            break;
+            
+            case 'verde':
+                echo "<p>Sua cor favorita é <b>VERDE</b></p>";
+                break;
+
+                case'AZUl':
+                    echo "<p>Sua cor favorita é <b>AZUL</b></p>";
+
+        default:
+        echo "<p>Sua cor favorita não é Verde, nem azul e nem vermelho</p>";
+        break;
+
+     }
+     $dia = 3;
+     switch($dia){
+     case 1:
+        echo"domingo";
+        break;
+    case 2:
+       echo"segunda";
+       break;
+    case 3:
+        echo"terça";
+        break;
+    case 4: 
+        echo"quarta";
+        break;
+    case 5:
+        echo"quinta";
+        break;
+    case 6:
+        echo"sexta";
+        break;
+     case 7: 
+        echo"sabado";
+        break;
+        
+    default:
+    echo "dia invalido";
+    break;
+
+}
      ?>
     </body>
     </html>

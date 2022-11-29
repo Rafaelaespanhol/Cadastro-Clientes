@@ -59,7 +59,13 @@ if ($a == $b)
 ### IF
 - Quando você precisa que seu código tome alguma decisão baseado em uma ou mais condições 
 
-### 
+### Sintaxe
+```php
+if(confição{
+  resposta verdadeira
+}else{
+  resposta falsa
+}
 
 
      ### IF com ELSE
@@ -84,4 +90,52 @@ echo "Você não pode entrar";
         echo "<p>Reprovado</p>";
      }
 
-    
+
+### Tenario 
+```php
+condição? resposta verdadeira : resposta falsa
+```
+
+### Exemplo 
+```php
+echo ($idade>=18) ? "pode entrar" : "rejeitado";
+``` 
+
+### switch
+### sintaxe
+```php
+switch(variavel){
+  case valor:
+  código
+  break;
+
+  case valor:
+  código
+  break;
+
+  default:
+  código
+  break;
+
+}
+```
+
+### EXEMPLO
+
+     $COR = "Vermelho";
+     switch ($cor){
+        case 'azul':
+            echo "<p>Sua cor favorita é <b>AZUL</b></p>";
+            break;
+            
+            case 'verde':
+                echo "<p>Sua cor favorita é <b>VERDE</b></p>";
+                break;
+
+                case'AZUl':
+                    echo "<p>Sua cor favorita é <b>AZUL</b></p>";
+
+        default:
+        echo "<p>Sua cor favorita não é Verde, nem azul e nem vermelho</p>";
+        break;
+        
