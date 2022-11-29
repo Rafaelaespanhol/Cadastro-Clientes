@@ -37,6 +37,20 @@
      if($idade>18 && $fumante == false){
         echo"<p>Sua idade é $idade</p>";
         echo "<p> Pode entrar na festa</p>";
+     }else if($idade >= 10){
+        echo "<p>Pessoas acima de 70 anos não podem entrar na festa</p>";
+     }else{
+echo "Você não pode entrar";
+
+     }
+     
+     $nota = 8;
+     if($nota >= 8){
+        echo "<p>Aprovado</p>";
+     }else if($nota >= 5){
+        echo "<p>Recuperação</p>";
+     }else{
+        echo "<p>Reprovado</p>";
      }
      ?>
     </body>
