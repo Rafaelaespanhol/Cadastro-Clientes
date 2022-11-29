@@ -138,4 +138,21 @@ switch(variavel){
         default:
         echo "<p>Sua cor favorita não é Verde, nem azul e nem vermelho</p>";
         break;
-        
+
+
+        ### Estrutura de repetição
+        ### while
+        - Sera executado o laço enquanto a condição for verdadeira
+        ```php
+        while(condição){
+          código
+        }
+        ```
+
+   ### EXEMPLO
+        ```php
+         while($contador < 10){
+        echo "contador com while loop numero $ contador <br>";
+        $contador = $contador + 1;
+        $
+    }
